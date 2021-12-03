@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SURAJ PUNDIR PROJECT</title>
+<script>
+m=0;
+var y;
+function start()
+{
+y=setInterval(run,100);
+function run()
+{
+if(m==1100)
+{
+clearInterval(y);
+m=0;
+}
+else
+{
+m+=5;
+var x=document.getElementById("i2");
+x.style.marginLeft=m+'px';
+}
+}
+}
+function stop()
+{
+clearInterval(y)
+}
+function go()
+{
+y=setInterval(run,100);
+function run()
+{
+if(m==1100)
+{
+clearInterval(y);
+m=0;
+}
+else
+{
+m+=5;
+var x=document.getElementById("i3");
+x.style.marginLeft=m+'px';
+}
+}
+}
+function tm()
+{
+clearInterval(y)
+}
+function yes()
+{
+y=setInterval(run,100);
+function run()
+{
+if(m==1100)
+{
+clearInterval(y);
+m=0;
+}
+else
+{
+m+=5;
+var x=document.getElementById("i6");
+x.style.marginRight=m+'px';
+}
+}
+}
+function no()
+{
+clearInterval(y)
+}
+</script>
+<style type="text/css">
+#i1
+{
+background:url(https://tse3.mm.bing.net/th?id=OIP.fMOz7gdWPhCfAAQ-ccWPMQHaE7&pid=Api&P=0&w=239&h=160);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+width:1400px;
+height:450px;
+}
+#i2
+{
+background-color:red;
+width:300px;
+height:100px;
+}
+#i3
+{
+background-color:red;
+width:300px;
+height:100px;
+}
+#i6
+{
+background-color:red;
+width:300px;
+height:100px;
+}
+#g1
+{
+background-color:red;
+color-green;
+font-weight:bold;
+text-align:center;
+font-size:25px;
+}
+</style>
+
+<img id=i1 src="https://tse1.mm.bing.net/th?id=OIP.uwsv3tNKjDt3LH9tYwettAHaDv&pid=Api&P=0&w=305&h=155"</img>
+<img id=i2 src="https://www.pinclipart.com/picdir/middle/562-5622445_horizontal-car-png-clipart.png"</img>
+ </br><img id=i3 src="https://tse3.mm.bing.net/th?id=OIP.Lu39ffZMK0rrYU3Ee_gWcQHaC1&pid=Api&P=0&w=397&h=153"</img>
+</br>
+<img id=i6 align="right" src="https://tse1.mm.bing.net/th?id=OIP.zBYEZgwqKkFgmcb-gSvfigHaCQ&pid=Api&P=0&w=462&h=141"</img>
+</br></br></br>
+</head>
+
+<body>
+
+</br>
+</br>
+</br>
+</br>
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+</br>
+<button onclick="go()">ST</button>
+<button onclick="tm()">SP2</button>
+</br>
+<button onclick="yes()">ya</button>
+<button onclick="no()">no</button>
+</body>
+<html>
